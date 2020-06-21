@@ -1,0 +1,26 @@
+﻿@inject HttpClient Http
+
+<h3>Projects</h3>
+<div id="projects">
+
+    @{
+        if (projects != null)
+        {
+            foreach (var item in projects)
+            {
+                <Project project=item />
+
+            }
+        }
+
+    }
+</div>
+
+@code {
+    public ProjectModel[] projects;
+    protected override async Task OnInitializedAsync()
+    {
+        projects = await Http.GetFromJsonAsync<ProjectModel[]>("data/Projects.json");
+
+    }
+}

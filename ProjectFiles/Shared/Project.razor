@@ -1,0 +1,35 @@
+﻿
+    
+    <div class="project">
+            
+        <div class="projimg">
+            <a href=@project.GitHubLink target="_blank">
+                <img src="css/images/projects/@project.Icon" width="300" height="200">
+                </a>
+        </div>
+
+            <div class="projdesc">
+                <p>@project.Description</p>
+            </div>
+            <div class="projtags">
+                @{
+                    if (project.Tags != null)
+                    {
+                        foreach (var item in project.Tags)
+                        {
+                            
+                            <Tag Name="@item" />
+                            
+                        }
+                    }
+
+                }
+            </div>
+    </div>
+    
+    @code {
+
+        [Parameter]
+        public ProjectModel project { get; set; }
+
+    }
