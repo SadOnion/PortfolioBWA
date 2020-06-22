@@ -17,7 +17,9 @@
     font-family: ibmPlexMono;
     text-decoration: none;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: black;
     color: #dddddd;
@@ -248,19 +250,23 @@ body {
     background-color: transparent;
     border: 2px solid #0ACF79;
     color: #0ACF79;
-    margin: auto;
+    margin: 10px;
     text-align: center;
     min-width: 50px;
     transition: 0.25s;
+    font-family: ibmPlexBold;
+    padding:5px;
 }
 .sortActive {
     background-color: #0ACF79;
     border: 2px solid #0ACF79;
     color: black;
-    margin: auto;
+    margin: 10px;
     text-align: center;
     min-width: 50px;
+    font-family: ibmPlexBold;
     transition: 0.25s;
+    padding: 5px;
 }
 .sort:hover{
     cursor:pointer;

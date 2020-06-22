@@ -1,13 +1,13 @@
 [
   {
     "Icon": "cryst.png",
-    "Tags": [ "c#", "Unity" ],
-    "Description": "Game made in 7 days during brackeys game jam 2020.1",
+    "Tags": [ "c#", "Unity",".Net" ],
+    "Description": "Game made during brackeys game jam 2020.1 in small team of game developers where i was the main programmer of this project",
     "GitHubLink": "https://github.com/SadOnion/BrackeysJam2020.1"
   },
   {
     "Icon": "autoreforge.png",
-    "Tags": [ "c#", "tModLoader" ],
+    "Tags": [ "c#", "tModLoader",".Net" ],
     "Description": "Modification to a popular game terraria made with help of tModLoader API",
     "GitHubLink": "https://github.com/SadOnion/AutoReroll"
   },
@@ -16,5 +16,17 @@
     "Tags": [ "c#", "blazor", "html", "css", ".net" ],
     "Description": "Website that you are curenlty browsing",
     "GitHubLink": "https://github.com/SadOnion/PortfolioBWA"
+  },
+  {
+    "Icon": "jomb.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during Comunity Game Jam in 5 days",
+    "GitHubLink": "https://smutnacebula.itch.io/just-one-more-button"
+  },
+  {
+    "Icon": "nmd.png",
+    "Tags": [ "c#", "tmodloader", ".net" ],
+    "Description": "Modification to a popular game terraria made with help of tModLoader API",
+    "GitHubLink": "https://github.com/SadOnion/NoMoreDialogues"
   }
 ]
