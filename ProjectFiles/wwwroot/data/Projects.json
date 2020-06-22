@@ -1,12 +1,20 @@
-[{
-    "Icon":"cryst.png",
-    "Tags":["c#","Unity"],
-    "Description":"Game made in 7 days during brackeys game jam 2020.1",
-    "GitHubLink":"https://github.com/SadOnion/BrackeysJam2020.1"
-},
-{
-    "Icon":"autoreforge.png",
-    "Tags":["c#","tModLoader"],
-    "Description":"Modification to a popular game terraria made with help of tModLoader API</a>",
-    "GitHubLink":"https://github.com/SadOnion/AutoReroll"
-}]
+[
+  {
+    "Icon": "cryst.png",
+    "Tags": [ "c#", "Unity" ],
+    "Description": "Game made in 7 days during brackeys game jam 2020.1",
+    "GitHubLink": "https://github.com/SadOnion/BrackeysJam2020.1"
+  },
+  {
+    "Icon": "autoreforge.png",
+    "Tags": [ "c#", "tModLoader" ],
+    "Description": "Modification to a popular game terraria made with help of tModLoader API</a>",
+    "GitHubLink": "https://github.com/SadOnion/AutoReroll"
+  },
+  {
+    "Icon": "portfolio.png",
+    "Tags": [ "c#", "blazor", "html", "css", ".net" ],
+    "Description": "Website that you are curenlty browsing",
+    "GitHubLink": "https://github.com/SadOnion/PortfolioBWA"
+  }
+]

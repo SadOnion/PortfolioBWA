@@ -1,0 +1,45 @@
+﻿@inject ITechData TechData
+    <div id="technologies">
+        <div>
+            <h1 class="tableHeader">Languages</h1>
+
+            @if (languages != null)
+            {
+                <div class="techTable">
+
+                    @foreach (var item in languages)
+                    {
+                        <Tech Icon=@item.Icon Name=@item.Name />
+                    }
+                </div>
+            }
+        </div>
+        <div>
+            <h1 class="tableHeader">Frameworks</h1>
+
+            @if (frameworks != null)
+            {
+                <div class="techTable">
+
+                    @foreach (var item in frameworks)
+                    {
+                        <Tech Icon=@item.Icon Name=@item.Name />
+                    }
+                </div>
+            }
+        </div>
+
+    </div>
+@code {
+    public TechnologyModel[] techs;
+    public TechnologyModel[] languages;
+    public TechnologyModel[] frameworks;
+
+    protected override async Task OnInitializedAsync()
+    {
+        techs = await TechData.FetchTechnologies();
+
+        languages = Array.FindAll(techs, x => x.Table == 1);
+        frameworks = Array.FindAll(techs, x => x.Table == 2);
+    }
+}

@@ -1,6 +1,6 @@
 ﻿@inject HttpClient Http
 
-<h3>Projects</h3>
+<SortPanel SortChange=UpdateActiveValues/>
 <div id="projects">
 
     @{
@@ -8,7 +8,7 @@
         {
             foreach (var item in projects)
             {
-                <Project project=item />
+                if(ShouldBeVisible(item.Tags)){<Project project=item/>}
 
             }
         }
@@ -17,10 +17,32 @@
 </div>
 
 @code {
+    public Dictionary<string,bool> shows = new Dictionary<string, bool>();
+
+    public void UpdateActiveValues(Dictionary<string,bool> dict) => shows = dict;
     public ProjectModel[] projects;
+    public bool show = true;
     protected override async Task OnInitializedAsync()
     {
         projects = await Http.GetFromJsonAsync<ProjectModel[]>("data/Projects.json");
 
     }
+    public bool ShouldBeVisible(string[] tags)
+    {
+        if (shows.ContainsValue(true))
+        {
+            foreach (var item in tags)
+            {
+                if (shows.GetValueOrDefault(item.ToUpper())) return true;
+            }
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+
+    }
+
+
 }

@@ -1,0 +1,41 @@
+﻿@inject ITechData TechData
+<div id="sortPanel">
+    @if(techs != null)
+    {
+        <p>Sort:</p>
+        foreach (var item in techs)
+        {
+            <div class=@GetSortClass(item.TechName) @onclick=@(() =>{ChangeSortActivation(item.TechName);SortChange.InvokeAsync(activeSort);})>@item.TechName</div>
+        }
+    }
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback<Dictionary<string,bool>> SortChange{get;set;}
+
+    public TechnologyModel[] techs;
+    public Dictionary<string,bool> activeSort = new Dictionary<string, bool>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        techs = await TechData.FetchTechnologies();
+    }
+    public void ChangeSortActivation(string tech)
+    {
+        bool active = activeSort.GetValueOrDefault(tech);
+        activeSort[tech] = !active;
+        Console.WriteLine(tech + "is now" + activeSort[tech].ToString());
+    }
+    public string GetSortClass(string tech)
+    {
+        if(activeSort.GetValueOrDefault(tech))
+        {
+            return "sortActive";
+        }
+        else
+        {
+            return "sort";
+        }
+    }
+}
