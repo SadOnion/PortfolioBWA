@@ -25,7 +25,7 @@
     protected override async Task OnInitializedAsync()
     {
         projects = await Http.GetFromJsonAsync<ProjectModel[]>("data/Projects.json");
-
+        Console.WriteLine("There is "+projects.Length+" Projects");
     }
     public bool ShouldBeVisible(string[] tags)
     {

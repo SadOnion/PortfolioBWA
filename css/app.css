@@ -4,6 +4,10 @@
     font-family: ibmPlexMono;
     src: url(fonts/IBMPlexMono-Light.ttf);
 }
+@font-face {
+    font-family: ibmPlexBold;
+    src: url(fonts/IBMPlexMono-Bold.ttf);
+}
 
 
 * {
@@ -20,6 +24,7 @@ body {
 }
 
 #main {
+    margin:auto;
 }
 
 #top {
@@ -119,7 +124,7 @@ body {
     text-align: center;
     margin: 25px 0;
     font-weight: 1000;
-    border-bottom: 2px dotted #bbbbbb;
+    border-bottom: 1px dotted #0ACF79;
 }
 
 .section {
@@ -187,13 +192,11 @@ body {
 }
 
 .projdesc {
-    /*background-color: seashell;*/
     grid-column: 2/3;
     grid-row: 1/3;
 }
 
 .projtags {
-    /*background-color: palegreen;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -210,10 +213,58 @@ body {
 .tag {
     background-color: #0ACF79;
     color: #111;
-    max-height: 25px;
+    max-height: 35px;
     min-width: 50px;
     margin: 10px;
     text-align: center;
-    font-weight: 1000;
+    font-family:ibmPlexBold;
     text-transform: uppercase;
+    padding: 5px;
+}
+#technologies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tech {
+    display: flex;
+    
+}
+.techTable{
+    padding:10px 25px;
+    margin: 5px auto;
+    display:flex;
+    max-width:500px;
+    flex-wrap:wrap;
+}
+.tableHeader {
+    margin: 25px auto;
+}
+#sortPanel {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sort {
+    background-color: transparent;
+    border: 2px solid #0ACF79;
+    color: #0ACF79;
+    margin: auto;
+    text-align: center;
+    min-width: 50px;
+    transition: 0.25s;
+}
+.sortActive {
+    background-color: #0ACF79;
+    border: 2px solid #0ACF79;
+    color: black;
+    margin: auto;
+    text-align: center;
+    min-width: 50px;
+    transition: 0.25s;
+}
+.sort:hover{
+    cursor:pointer;
+}
+.sortActive:hover {
+    cursor: pointer;
 }
