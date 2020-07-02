@@ -2,19 +2,19 @@
   {
     "Icon": "cryst.png",
     "Tags": [ "c#", "Unity",".Net" ],
-    "Description": "Game made during brackeys game jam 2020.1 in small team of game developers where i was the main programmer of this project",
+    "Description": "Game made during brackeys game jam 2020.1 in small team of game developers where I was the main programmer",
     "GitHubLink": "https://github.com/SadOnion/BrackeysJam2020.1"
   },
   {
     "Icon": "autoreforge.png",
     "Tags": [ "c#", "tModLoader",".Net" ],
-    "Description": "Modification to a popular game terraria made with help of tModLoader API",
+    "Description": "Modification to a popular game Terraria made with help of tModLoader API",
     "GitHubLink": "https://github.com/SadOnion/AutoReroll"
   },
   {
     "Icon": "portfolio.png",
-    "Tags": [ "c#", "blazor", "html", "css", ".net" ],
-    "Description": "Website that you are curenlty browsing",
+    "Tags": [ "c#", "blazor", "html", "css", ".net","java script" ],
+    "Description": "Website that you are curently browsing",
     "GitHubLink": "https://github.com/SadOnion/PortfolioBWA"
   },
   {
@@ -26,7 +26,7 @@
   {
     "Icon": "nmd.png",
     "Tags": [ "c#", "tmodloader", ".net" ],
-    "Description": "Modification to a popular game terraria made with help of tModLoader API",
+    "Description": "Modification to a popular game Terraria made with help of tModLoader API",
     "GitHubLink": "https://github.com/SadOnion/NoMoreDialogues"
   }
 ]

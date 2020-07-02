@@ -16,4 +16,6 @@
     <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties wwwroot_4data_4projects_1json__JsonSchema="http://json.schemastore.org/jovo-language-model" /></VisualStudio></ProjectExtensions>
+
 </Project>

@@ -53,5 +53,10 @@
     "Name": "tmodloader",
     "Icon": "tmodloader.png",
     "Table": 2
+  },
+  {
+    "Name": "java script",
+    "Icon": "js.png",
+    "Table": 1
   }
 ]

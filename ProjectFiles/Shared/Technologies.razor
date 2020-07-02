@@ -1,7 +1,15 @@
 ﻿@inject ITechData TechData
     <div id="technologies">
         <div>
-            <h1 class="tableHeader">Languages</h1>
+            @if (Polish)
+            {
+                <h1 class="tableHeader">Języki</h1>
+            }
+            else
+            {
+                <h1 class="tableHeader">Languages</h1>
+
+            }
 
             @if (languages != null)
             {
@@ -15,7 +23,15 @@
             }
         </div>
         <div>
-            <h1 class="tableHeader">Frameworks</h1>
+            @if (Polish)
+            {
+                <h1 class="tableHeader">Frameworki</h1>
+            }
+            else
+            {
+                <h1 class="tableHeader">Frameworks</h1>
+
+            }
 
             @if (frameworks != null)
             {
@@ -31,6 +47,8 @@
 
     </div>
 @code {
+    [Parameter]
+    public bool Polish {get; set;}
     public TechnologyModel[] techs;
     public TechnologyModel[] languages;
     public TechnologyModel[] frameworks;

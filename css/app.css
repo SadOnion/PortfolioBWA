@@ -16,6 +16,7 @@
     box-sizing: border-box;
     font-family: ibmPlexMono;
     text-decoration: none;
+    font-size:16px;
 }
 html {
     scroll-behavior: smooth;
@@ -58,11 +59,11 @@ body {
     min-height: 10vh;
 }
 
-    #navbar a:link {
+    #navbar a.green:link {
         text-decoration: none !important;
     }
 
-    #navbar a {
+    #navbar a.green {
         position: relative;
         padding: 10px 30px;
         margin: 0 15px;
@@ -76,14 +77,14 @@ body {
         -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
     }
 
-        #navbar a:hover {
+        #navbar a.green:hover {
             color: #111;
             background: #0ACF79;
             box-shadow: 0 0 50px #0ACF79;
             transition-delay: 0.15s;
         }
 
-        #navbar a:before {
+        #navbar a.green:before {
             content: '';
             position: absolute;
             top: 0;
@@ -96,19 +97,19 @@ body {
             transition-delay: 0.1s;
         }
 
-        #navbar a:hover:before {
+        #navbar a.green:hover:before {
             width: 100%;
             height: 100%;
             transition-delay: 0s;
         }
 
-        #navbar a:hover:after {
+        #navbar a.green:hover:after {
             width: 100%;
             height: 100%;
             transition-delay: 0s;
         }
 
-        #navbar a:after {
+        #navbar a.green:after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -141,6 +142,7 @@ body {
     grid-template-rows: 200px 100px;
     margin: 15px 15px;
     padding: 15px;
+    color:#dddddd;
 }
 
     .project:before {
@@ -245,7 +247,9 @@ body {
 #sortPanel {
     display: flex;
     flex-wrap: wrap;
+    justify-content:center;
 }
+
 .sort {
     background-color: transparent;
     border: 2px solid #0ACF79;
@@ -273,4 +277,10 @@ body {
 }
 .sortActive:hover {
     cursor: pointer;
+}
+#git {
+    margin: auto 30px;
+}
+a:hover {
+    text-decoration: none;
 }

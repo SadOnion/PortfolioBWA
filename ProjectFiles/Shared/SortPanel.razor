@@ -2,7 +2,7 @@
 <div id="sortPanel">
     @if(techs != null)
     {
-        <p>Sort:</p>
+        
         foreach (var item in techs)
         {
             <div class=@GetSortClass(item.TechName) @onclick=@(() =>{ChangeSortActivation(item.TechName);SortChange.InvokeAsync(activeSort);})>@item.TechName</div>

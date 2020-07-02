@@ -13,7 +13,7 @@
 
             }
             if(counter == 0){
-                <h2 style="margin:100px auto;">There is no projects with this tags</h2>
+                <h2 style="margin:100px auto;">There are no projects with this tags</h2>
                 }
             }
 
@@ -29,7 +29,6 @@
     protected override async Task OnInitializedAsync()
     {
         projects = await Http.GetFromJsonAsync<ProjectModel[]>("data/Projects.json");
-        Console.WriteLine("There is "+projects.Length+" Projects");
     }
     public bool ShouldBeVisible(string[] tags)
     {
