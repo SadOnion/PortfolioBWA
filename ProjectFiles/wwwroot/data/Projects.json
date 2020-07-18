@@ -20,7 +20,7 @@
   {
     "Icon": "jomb.png",
     "Tags": [ "c#", "unity", ".net" ],
-    "Description": "Game made during Comunity Game Jam in 5 days",
+    "Description": "Game made during Comunity Game Jam in 5 days in team of four",
     "GitHubLink": "https://smutnacebula.itch.io/just-one-more-button"
   },
   {
@@ -28,5 +28,11 @@
     "Tags": [ "c#", "tmodloader", ".net" ],
     "Description": "Modification to a popular game Terraria made with help of tModLoader API",
     "GitHubLink": "https://github.com/SadOnion/NoMoreDialogues"
+  },
+  {
+    "Icon": "bob.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during GMTK Game Jam 2020 in 48 hours in team of three",
+    "GitHubLink": "https://github.com/SadOnion/GMTK2020"
   }
 ]
