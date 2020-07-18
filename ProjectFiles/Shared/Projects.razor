@@ -1,33 +1,48 @@
 ﻿@inject HttpClient Http
 
-<SortPanel SortChange=UpdateActiveValues/>
+<SortPanel SortChange=UpdateActiveValues />
 <div id="projects">
 
     @{
         if (projects != null)
         {
-            int counter=0;
+            int counter = 0;
             foreach (var item in projects)
             {
-                if(ShouldBeVisible(item.Tags)){counter++;<Project project=item/>}
+                if (ShouldBeVisible(item.Tags))
+                {
+                    counter++;<Project project=item Polish=Polish />}
 
             }
-            if(counter == 0){
-                <h2 style="margin:100px auto;">There are no projects with this tags</h2>
+            if (counter == 0)
+            {
+                if (Polish)
+                {
+                    <h2 style="margin:100px auto;">Nie ma projektów z tymi tagami</h2>
+
+                }
+                else
+                {
+
+                    <h2 style="margin:100px auto;">There are no projects with this tags</h2>
                 }
             }
-
         }
+
+    }
 </div>
 
 @code {
-    public Dictionary<string,bool> shows = new Dictionary<string, bool>();
+    [Parameter]
+    public bool Polish { get; set; }
+    public Dictionary<string, bool> shows = new Dictionary<string, bool>();
 
-    public void UpdateActiveValues(Dictionary<string,bool> dict) => shows = dict;
+    public void UpdateActiveValues(Dictionary<string, bool> dict) => shows = dict;
     public ProjectModel[] projects;
     public bool show = true;
     protected override async Task OnInitializedAsync()
     {
+
         projects = await Http.GetFromJsonAsync<ProjectModel[]>("data/Projects.json");
     }
     public bool ShouldBeVisible(string[] tags)

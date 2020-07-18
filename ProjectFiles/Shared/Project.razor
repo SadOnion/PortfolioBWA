@@ -7,9 +7,16 @@
                 <img src="css/images/projects/@project.Icon" width="300" height="200">
         </div>
 
-            <div class="projdesc">
+        <div class="projdesc">
+            @if (Polish)
+            {
+                <p>@project.DescPl</p>
+            }
+            else
+            {
                 <p>@project.Description</p>
-            </div>
+            }
+        </div>
             <div class="projtags">
                 @{
                     if (project.Tags != null)
@@ -31,6 +38,7 @@
 
         [Parameter]
         public ProjectModel project { get; set; }
-        
+        [Parameter]
+        public bool Polish {get; set;}
 
     }

@@ -10,6 +10,7 @@ namespace Portfolio.Data
         public string Icon {get; set;}
         public string[] Tags {get; set;}
         public string Description {get; set;}
+        public string DescPl {get; set;}
 
         public string GitHubLink {get; set;}
     }

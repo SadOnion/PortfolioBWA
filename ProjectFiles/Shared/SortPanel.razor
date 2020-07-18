@@ -25,7 +25,6 @@
     {
         bool active = activeSort.GetValueOrDefault(tech);
         activeSort[tech] = !active;
-        Console.WriteLine(tech + "is now" + activeSort[tech].ToString());
     }
     public string GetSortClass(string tech)
     {
