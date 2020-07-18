@@ -1,8 +1,8 @@
 [
   {
     "Icon": "cryst.png",
-    "Tags": [ "c#", "Unity",".Net" ],
-    "Description": "Game made during brackeys game jam 2020.1 in small team of game developers where I was the main programmer",
+    "Tags": [ "c#", "Unity", ".Net" ],
+    "Description": "Game made during brackeys game jam 2020.1 in team of four",
     "GitHubLink": "https://github.com/SadOnion/BrackeysJam2020.1"
   },
   {
@@ -20,7 +20,7 @@
   {
     "Icon": "jomb.png",
     "Tags": [ "c#", "unity", ".net" ],
-    "Description": "Game made during Comunity Game Jam in 5 days in team of four",
+    "Description": "Game made during Comunity Game Jam in 5 days",
     "GitHubLink": "https://smutnacebula.itch.io/just-one-more-button"
   },
   {
