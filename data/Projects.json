@@ -40,5 +40,12 @@
     "Description": "Game made during GMTK Game Jam 2020 in 48 hours in team of three",
     "DescPl": "Gra stworzona podczas GMTK Game Jam 2020 w 48 godzin w trzyosobowym zespole",
     "GitHubLink": "https://github.com/SadOnion/GMTK2020"
+  },
+   {
+    "Icon": "DreamWood.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during Brackeys Game Jam 2020.2 in 7 days in team of three",
+    "DescPl": "Gra stworzona podczas Brackeys Game Jam 2020.2 w 7 dni w trzyosobowym zespole",
+    "GitHubLink": "https://secretjuice1.itch.io/thedreamwood"
   }
 ]
