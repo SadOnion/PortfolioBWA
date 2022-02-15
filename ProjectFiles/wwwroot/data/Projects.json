@@ -40,5 +40,26 @@
     "Description": "Game made during GMTK Game Jam 2020 in 48 hours in team of three",
     "DescPl": "Gra stworzona podczas GMTK Game Jam 2020 w 48 godzin w trzyosobowym zespole",
     "GitHubLink": "https://github.com/SadOnion/GMTK2020"
+  },
+  {
+    "Icon": "DreamWood.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during Brackeys Game Jam 2020.2 in a week hours in team of three",
+    "DescPl": "Gra stworzona podczas Brackeys Game Jam 2020.2 w tydzień w trzyosobowym zespole",
+    "GitHubLink": "https://secretjuice1.itch.io/thedreamwood"
+  },
+  {
+    "Icon": "Sparkle.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during PWR PG Game Jam 2021 in 2 weeks",
+    "DescPl": "Gra stworzona podczas PWR PG GAME JAM 2021 w 2 tygodnie",
+    "GitHubLink": "https://smutnacebula.itch.io/sparkle"
+  },
+  {
+    "Icon": "Nonji.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during GMTK Game Jam 2021 in 48 hours",
+    "DescPl": "Gra stworzona podczas GMTK Game Jam 2021 w 48 godzin",
+    "GitHubLink": "https://smutnacebula.itch.io/nonji"
   }
 ]
