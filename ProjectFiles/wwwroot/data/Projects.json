@@ -68,5 +68,16 @@
     "Description": "Game made during GMTK Game Jam 2022 in 48 hours",
     "DescPl": "Gra stworzona podczas GMTK Game Jam 2022 w 48 godzin",
     "GitHubLink": "https://kohan.itch.io/stepahead"
+  },
+  {
+    "Icon": "DimensionalI.png",
+    "Tags": [
+      "c#",
+      "Unity",
+      ".Net"
+    ],
+    "Description": "Game made during Brackeys Game Jam 2022.1",
+    "DescPl": "Gra zrobiona podczas Brackeys Game Jam 2022.1",
+    "GitHubLink": "https://kohan.itch.io/dimensional-inconsistency"
   }
 ]
