@@ -1,0 +1,385 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+@font-face {
+    font-family: ibmPlexMono;
+    src: url(fonts/IBMPlexMono-Light.ttf);
+}
+@font-face {
+    font-family: ibmPlexBold;
+    src: url(fonts/IBMPlexMono-Bold.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ibmPlexMono;
+    text-decoration: none;
+    font-size:16px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+    color: #dddddd;
+}
+
+#main {
+    margin:auto;
+}
+
+#top {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#upperName {
+    position: relative;
+    top: 50px;
+    font-size: 32px;
+}
+
+#bottomName {
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+#navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+
+    #navbar a.green:link {
+        text-decoration: none !important;
+    }
+
+    #navbar a.green {
+        position: relative;
+        padding: 10px 30px;
+        margin: 0 15px;
+        color: #0ACF79;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 20px;
+        overflow: hidden;
+        transition: 0.5s;
+        -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+    }
+
+        #navbar a.green:hover {
+            color: #111;
+            background: #0ACF79;
+            box-shadow: 0 0 50px #0ACF79;
+            transition-delay: 0.15s;
+        }
+
+        #navbar a.green:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid #0ACF79;
+            border-left: 2px solid #0ACF79;
+            transition: 0.25s;
+            transition-delay: 0.1s;
+        }
+
+        #navbar a.green:hover:before {
+            width: 100%;
+            height: 100%;
+            transition-delay: 0s;
+        }
+
+        #navbar a.green:hover:after {
+            width: 100%;
+            height: 100%;
+            transition-delay: 0s;
+        }
+
+        #navbar a.green:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-bottom: 2px solid #0ACF79;
+            border-right: 2px solid #0ACF79;
+            transition: 0.25s;
+            transition-delay: 0.1s;
+        }
+
+.header {
+    font-size: 50px;
+    text-align: center;
+    margin: 25px 0;
+    font-weight: 1000;
+    border-bottom: 1px dotted #0ACF79;
+}
+
+.section {
+    text-align: center;
+    margin: 0 5%;
+}
+
+.project {
+    position: relative;
+    display: grid;
+    grid-template-columns: 300px 150px;
+    grid-template-rows: 200px 100px;
+    margin: 15px 15px;
+    padding: 15px;
+    color:#dddddd;
+}
+
+    .project:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        border-top: 2px solid #0ACF79;
+        border-left: 2px solid #0ACF79;
+        transition: 0.25s;
+    }
+
+    .project:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 10px;
+        height: 10px;
+        border-bottom: 2px solid #0ACF79;
+        border-right: 2px solid #0ACF79;
+        transition: 0.25s;
+    }
+
+    .project:hover:before {
+        width: 100%;
+        height: 100%;
+    }
+
+    .project:hover:after {
+        width: 100%;
+        height: 100%;
+    }
+
+    .project:hover {
+        box-shadow: 0 0 50px #0ACF79;
+        transition: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+.tags {
+    background-color: #0ACF79;
+}
+
+.projimg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+.projdesc {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.projtags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+}
+
+.tag {
+    background-color: #0ACF79;
+    color: #111;
+    max-height: 35px;
+    min-width: 50px;
+    margin: 10px;
+    text-align: center;
+    font-family:ibmPlexBold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+#technologies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tech {
+    display: flex;
+    
+}
+.techTable{
+    padding:10px 25px;
+    margin: 5px auto;
+    display:flex;
+    max-width:500px;
+    flex-wrap:wrap;
+}
+.tableHeader {
+    margin: 25px auto;
+}
+#sortPanel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.sort {
+    background-color: transparent;
+    border: 2px solid #0ACF79;
+    color: #0ACF79;
+    margin: 10px;
+    text-align: center;
+    min-width: 50px;
+    transition: 0.25s;
+    font-family: ibmPlexBold;
+    padding:5px;
+}
+.sortActive {
+    background-color: #0ACF79;
+    border: 2px solid #0ACF79;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    min-width: 50px;
+    font-family: ibmPlexBold;
+    transition: 0.25s;
+    padding: 5px;
+}
+.sort:hover{
+    cursor:pointer;
+}
+.sortActive:hover {
+    cursor: pointer;
+}
+#git {
+    margin: auto 30px;
+}
+    #git:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: 0.25s;
+        filter: drop-shadow(0px 0px 5px #0ACF79);
+    }
+a:hover {
+    text-decoration: none;
+}
+#flags {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 20px;
+    filter: drop-shadow(0px 0px 4px #0ACF79);
+}
+
+
+.lds-grid {
+    display: inline-block;
+    position: relative;
+    width: 10vw;
+    height: 5vh;
+}
+
+    .lds-grid div {
+        position: absolute;
+        width: 2vw;
+        height: 2vw;
+        border-radius: 50%;
+        background: #0ACF79;
+        animation: lds-grid 1.2s linear infinite;
+    }
+
+        .lds-grid div:nth-child(1) {
+            top: 1vw;
+            left: 1vw;
+            animation-delay: 0s;
+        }
+
+        .lds-grid div:nth-child(2) {
+            top: 1vw;
+            left: 4vw;
+            animation-delay: -0.4s;
+        }
+
+        .lds-grid div:nth-child(3) {
+            top: 1vw;
+            left: 7vw;
+            animation-delay: -0.8s;
+        }
+
+        .lds-grid div:nth-child(4) {
+            top: 4vw;
+            left: 1vw;
+            animation-delay: -0.4s;
+        }
+
+        .lds-grid div:nth-child(5) {
+            top: 4vw;
+            left: 4vw;
+            animation-delay: -0.8s;
+        }
+
+        .lds-grid div:nth-child(6) {
+            top: 4vw;
+            left: 7vw;
+            animation-delay: -1.2s;
+        }
+
+        .lds-grid div:nth-child(7) {
+            top: 7vw;
+            left: 1vw;
+            animation-delay: -0.8s;
+        }
+
+        .lds-grid div:nth-child(8) {
+            top: 7vw;
+            left: 4vw;
+            animation-delay: -1.2s;
+        }
+
+        .lds-grid div:nth-child(9) {
+            top: 7vw;
+            left: 7vw;
+            animation-delay: -1.6s;
+        }
+
+@keyframes lds-grid {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+#start-logo{
+    width: 15vw;
+    height: 35vh;
+    margin: 10vh 1vh 0 0;
+}

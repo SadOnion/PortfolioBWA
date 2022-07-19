@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "c#",
+    "Icon": "csharp.png",
+    "Table": 1
+  },
+  {
+    "Name": "c++",
+    "Icon": "cpp.png",
+    "Table": 1
+  },
+  {
+    "Name": "unity",
+    "Icon": "unity.png",
+    "Table": 2
+  },
+  {
+    "Name": "html",
+    "Icon": "html.png",
+    "Table": 1
+  },
+  {
+    "Name": "css",
+    "Icon": "css.png",
+    "Table": 1
+  },
+  {
+    "Name": "sql",
+    "Icon": "sql.png",
+    "Table": 1
+  },
+  {
+    "Name": "blazor",
+    "Icon": "blazor.png",
+    "Table": 2
+  },
+  {
+    "Name": ".net",
+    "Icon": "dotnet.png",
+    "Table": 2
+  },
+  {
+    "Name": "java",
+    "Icon": "java.png",
+    "Table": 1
+  },
+  {
+    "Name": "python",
+    "Icon": "python.png",
+    "Table": 1
+  },
+  {
+    "Name": "tmodloader",
+    "Icon": "tmodloader.png",
+    "Table": 2
+  },
+  {
+    "Name": "java script",
+    "Icon": "js.png",
+    "Table": 1
+  }
+]

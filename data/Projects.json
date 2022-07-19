@@ -1,0 +1,83 @@
+[
+  {
+    "Icon": "cryst.png",
+    "Tags": [ "c#", "Unity", ".Net" ],
+    "Description": "Game made during Brackeys Game Jam 2020.1 in team of four",
+    "DescPl": "Gra zrobiona podczas Brackeys Game Jam 2020.1 w czteroosobowym zespole",
+    "GitHubLink": "https://github.com/SadOnion/BrackeysJam2020.1"
+  },
+  {
+    "Icon": "autoreforge.png",
+    "Tags": [ "c#", "tModLoader", ".Net" ],
+    "Description": "Modification to a popular game Terraria made with help of tModLoader API",
+    "DescPl": "Modyfikacja do popularnej gry Terraria stworzona z pomocą tModLoader API",
+    "GitHubLink": "https://github.com/SadOnion/AutoReroll"
+  },
+  {
+    "Icon": "portfolio.png",
+    "Tags": [ "c#", "blazor", "html", "css", ".net", "java script" ],
+    "Description": "Website that you are curently browsing",
+    "DescPl": "Strona którą aktualnie przeglądasz",
+    "GitHubLink": "https://github.com/SadOnion/PortfolioBWA"
+  },
+  {
+    "Icon": "jomb.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during Comunity Game Jam in 5 days",
+    "DescPl": "Gra stworzona podczas Comunity Game Jam w 5 dni",
+    "GitHubLink": "https://smutnacebula.itch.io/just-one-more-button"
+  },
+  {
+    "Icon": "nmd.png",
+    "Tags": [ "c#", "tmodloader", ".net" ],
+    "Description": "Modification to a popular game Terraria made with help of tModLoader API",
+    "DescPl": "Modyfikacja do popularnej gry Terraria stworzona z pomocą tModLoader API",
+    "GitHubLink": "https://github.com/SadOnion/NoMoreDialogues"
+  },
+  {
+    "Icon": "bob.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during GMTK Game Jam 2020 in 48 hours in team of three",
+    "DescPl": "Gra stworzona podczas GMTK Game Jam 2020 w 48 godzin w trzyosobowym zespole",
+    "GitHubLink": "https://github.com/SadOnion/GMTK2020"
+  },
+  {
+    "Icon": "DreamWood.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during Brackeys Game Jam 2020.2 in a week hours in team of three",
+    "DescPl": "Gra stworzona podczas Brackeys Game Jam 2020.2 w tydzień w trzyosobowym zespole",
+    "GitHubLink": "https://secretjuice1.itch.io/thedreamwood"
+  },
+  {
+    "Icon": "Sparkle.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during PWR PG Game Jam 2021 in 2 weeks",
+    "DescPl": "Gra stworzona podczas PWR PG GAME JAM 2021 w 2 tygodnie",
+    "GitHubLink": "https://smutnacebula.itch.io/sparkle"
+  },
+  {
+    "Icon": "Nonji.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during GMTK Game Jam 2021 in 48 hours",
+    "DescPl": "Gra stworzona podczas GMTK Game Jam 2021 w 48 godzin",
+    "GitHubLink": "https://smutnacebula.itch.io/nonji"
+  },
+  {
+    "Icon": "Step.png",
+    "Tags": [ "c#", "unity", ".net" ],
+    "Description": "Game made during GMTK Game Jam 2022 in 48 hours",
+    "DescPl": "Gra stworzona podczas GMTK Game Jam 2022 w 48 godzin",
+    "GitHubLink": "https://kohan.itch.io/stepahead"
+  },
+  {
+    "Icon": "DimensionalI.png",
+    "Tags": [
+      "c#",
+      "Unity",
+      ".Net"
+    ],
+    "Description": "Game made during Brackeys Game Jam 2022.1",
+    "DescPl": "Gra zrobiona podczas Brackeys Game Jam 2022.1",
+    "GitHubLink": "https://kohan.itch.io/dimensional-inconsistency"
+  }
+]
